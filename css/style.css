@@ -8,7 +8,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    padding-bottom: 200px;
+}
+
 /* NAVEGAÇÃO */
+
 .navegacao_principal{
     height: 55px;
     background: linear-gradient(to right, #1C2F40, #1B5959, #208C81);
@@ -49,6 +54,7 @@
     border-radius: 5px;
     font-family: "Inter", sans-serif;
 }
+
 
 /* Banner principal Header */
 
@@ -106,15 +112,178 @@
     margin-top: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-img{
-    width: 20%;
+.container_content img{
+    width: 25%;
 }
+
+/* CARDS DE PLANOS E PREÇOS */
+
+.container_All_Cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.container_All_Cards h2{
+    font-family: "Inter", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.container_All_Cards> p{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+.cards ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #262626;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.cards .redondo{
+    background-color:#3daea3;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.cards .know_more{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #3daea3;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.container_Lista_Itens li:not(:last-child){
+    border-bottom: 1px solid #faf5f5bc;
+}
+
+.container_Lista_Itens li{
+    width: 100%;
+    text-align: center;
+    background-color: #e3dcdc;
+    font-size: 18px;
+    font-family: "inter", sans-serif;
+    padding: 20px;
+}
+
+.cards .redondo2{
+    background-color:#E07263;
+    color: white;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: "Inter", sans-serif;
+}
+
+.cards .know_more2{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #E07263;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: white;
+}   
+
+.cards .redondo3{
+    color: white;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: "Inter", sans-serif;
+    background-color: #E06378;
+}
+
+.cards .know_more3{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #E06378;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.cards .redondo4{
+    background-color:#C763E0;
+    color: white;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: "Inter", sans-serif;
+}
+
+.cards .know_more4{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #C763E0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
