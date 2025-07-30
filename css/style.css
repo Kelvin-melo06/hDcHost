@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVEGAÇÃO */
+.navegacao_principal{
+    height: 55px;
+    background: linear-gradient(to right, #1C2F40, #1B5959, #208C81);
+}
+
+.navegacao_principal ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navegacao_principal ul li{
+    margin: 0 15px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.nav_logo{
+    margin-right: auto;
+}
+
+.navegacao_principal ul li:nth-child(2){
+    margin-left: auto;
+}
+
+.nav_logo img{
+    height: 50px;
+    width: auto;
+}
+
+.botao_entrar{
+    background-color: #343D59;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+
+/* Banner principal Header */
+
+.container_banner{
+    background-image: url('../img/mainbanner.png');
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.container_banner h1{
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 20px;
+}
+
+/* CONTEUDO PRINCIPAL */
+
+.container_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.container_content + .container_content{
+    margin-top: 60px;
+}
+
+.container_content h2{
+    font-family: "inter", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.container_content p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.container_content img:nth-child(1){
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+img{
+    width: 20%;
+}
