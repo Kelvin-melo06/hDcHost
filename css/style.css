@@ -479,7 +479,8 @@ body{
     }
 
     .container_Form1{
-        width: 1400px;
+        width: 100%;
+        border-radius: 0px;
     }
 
     .container_Form_dominio input[type="text"],
