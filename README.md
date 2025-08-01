@@ -2,6 +2,7 @@
 
 Este projeto consiste na criação de uma landing page (página inicial) para a empresa fictícia hDcHost, especializada em serviços de hospedagem de sites e registro de domínios. O objetivo principal é demonstrar habilidades em construção de interfaces web, priorizando a responsividade, a usabilidade e uma estrutura de código limpa e semântica.
 
+
 ---
 
 ## ✨ Funcionalidades Principais
