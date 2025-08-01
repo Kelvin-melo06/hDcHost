@@ -131,6 +131,7 @@ body{
     margin-top: 50px;
     margin-bottom: 8px;
     font-weight: 600;
+    border-bottom: 2px solid #3daea3
 }
 
 .container_All_Cards> p{
@@ -388,4 +389,113 @@ body{
     font-family: "Inter", sans-serif;
     font-size: 20px;
     cursor: pointer;
+}
+
+/* MODELO PARA TABLETS 768PX */
+
+@media (min-width: 768px) {
+    .cards{
+        width: 500px;
+    }
+
+    .container_Form1{
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .container_Form_dominio input[type="text"],
+    .botao_Form_Dominio input[type="submit"]{
+        width: 400px;
+    }
+
+    .container_Forms2 input[type="text"],
+    .container_Forms2 input[type="email"],
+    .container_Forms2 textarea,
+    .container_Forms2 input[type="submit"]{
+        width: 400px;
+    }
+
+    .container_content p{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .container_All_Cards h2{
+        font-size: 30px;
+        border-bottom: 2px solid #3daea3;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cards{
+        width: 800px;
+    }
+
+    .container_Form1{
+        width: 800px;
+    }
+
+    .container_Form_dominio input[type="text"],
+    .botao_Form_Dominio input[type="submit"]{
+        width: 600px;
+    }
+
+    .container_Forms2 input[type="text"],
+    .container_Forms2 input[type="email"],
+    .container_Forms2 textarea,
+    .container_Forms2 input[type="submit"]{
+        width: 600px;
+    }
+}
+
+@media (min-width:1200px){
+    .container_content_principal{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .container_content{
+        width: 500px;
+    }
+
+    .container_content p{
+        text-align: justify;
+    }
+
+    .navegacao_principal li{
+        font-size: 18px;
+    }
+
+    .grid_card{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+    }
+
+    .cards{
+        width: 350px;
+    }
+
+    .container_Form1{
+        width: 1400px;
+    }
+
+    .container_Form_dominio input[type="text"],
+    .botao_Form_Dominio input[type="submit"]{
+        width: 800px;
+    }
+
+    .container_Forms2 input[type="text"],
+    .container_Forms2 input[type="email"],
+    .container_Forms2 textarea,
+    .container_Forms2 input[type="submit"]{
+        width: 1200px;
+    }
+
+    .container_Forms2 input[type="submit"]{
+        width: 1000px;
+        height: 50px;
+    }
 }
