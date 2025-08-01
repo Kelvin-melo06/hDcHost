@@ -285,3 +285,107 @@ body{
     font-size: 20px;
     color: white;
 }
+
+/* FORMULÁRIO PARA DOMÍNIOS */
+
+.container_Form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #1C2F40;
+    height: 350px;
+}
+
+.container_Form1 h3{
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.container_Form1 span{
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.732);
+    font-size: 20px;
+}
+
+.container_Form_dominio input[type="text"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+
+.botao_Form_Dominio input[type="submit"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3daea3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* FORMULARIO PARA CONTATO */
+
+.container_Form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container_Form2 h3{
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.container_Form2 span{
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.732);
+    font-size: 20px;
+}
+
+.container_Forms2 input[type="text"],
+.container_Forms2 input[type="email"],
+.container_Forms2 textarea{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+
+.container_Forms2 textarea{
+    height: 100px;
+    resize: none;
+}
+
+.container_Forms2 input[type="submit"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: #3daea3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
